@@ -37,9 +37,9 @@ const Menu = [
     description:
       "This project integrated within Oracle Content Management System introduces multichannel calendaring and scheduled publishing capabilities, allowing seamless content delivery planning and scheduling across various departments and channels, enhancing collaboration and version control while providing centralized publishing controls.",
     github: "",
-    demo: "",
+    demo: "https://www.oracle.com/content-management/cx/video-content-creation-delivery/#content-calendaring",
     youtube: "https://youtu.be/U9XK2mjErGU",
-    link_num: 1,
+    link_num: 2,
   },
   {
     id: 3,

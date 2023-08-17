@@ -18,7 +18,9 @@ const Experience = () => {
   return (
     <section className="resume__container section" id="experience">
       <motion.div variants={textVariant()}>
-        <h2 className={`section__title ${styles.primaryTextColor}`}>
+        <h2
+          className={`section__title before:bg-dots dark:before:bg-dots-dark ${styles.primaryTextColor}`}
+        >
           Work Experience
         </h2>
       </motion.div>

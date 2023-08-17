@@ -15,7 +15,9 @@ const Portfolio = () => {
   return (
     <section className="work container section" id="work">
       <motion.div variants={textVariant()}>
-        <h2 className={`section__title ${styles.primaryTextColor}`}>
+        <h2
+          className={`section__title before:bg-dots dark:before:bg-dots-dark ${styles.primaryTextColor}`}
+        >
           Projects
         </h2>
       </motion.div>
@@ -54,7 +56,11 @@ const Portfolio = () => {
                   </span>
                   <span
                     className={`portfolio__links flex flex-row justify-end ${
-                      link_num === 1 ? "left-[28rem]" : "left-[23rem]"
+                      link_num === 1
+                        ? "left-[28rem]"
+                        : link_num === 2
+                        ? "left-[25.5rem]"
+                        : "left-[23rem]"
                     }`}
                   >
                     {github && (
@@ -63,7 +69,7 @@ const Portfolio = () => {
                         target="_blank"
                         className={`work__button text-[1.85rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                       </a>
                     )}
                     {demo && (
@@ -72,7 +78,7 @@ const Portfolio = () => {
                         target="_blank"
                         className={`work__button text-[1.70rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
-                        <i class="fa-regular fa-folder-open"></i>
+                        <i className="fa-regular fa-folder-open"></i>
                       </a>
                     )}
                     {youtube && (
@@ -81,14 +87,14 @@ const Portfolio = () => {
                         target="_blank"
                         className={`work__button text-[1.85rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
-                        <i class="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-youtube"></i>
                       </a>
                     )}
                   </span>
                   <h3
                     className={`work__title ${styles.primaryInverseTextColor}`}
                   >
-                    <span class="title">{title}</span>
+                    <span className="title">{title}</span>
                   </h3>
                   <p
                     className={`work__description ${styles.secondaryInverseTextColor}`}

@@ -1,16 +1,23 @@
 import React from "react";
 import "./contact.css";
 import { SectionWrapper } from "../../hoc";
+import { styles } from "../../styles.js";
 
 const Contact = () => {
   return (
     <section className="contact container section" id="contact">
-      <h2 className="section__title">Get In Touch</h2>
+      <h2
+        className={`section__title before:bg-dots dark:before:bg-dots-dark ${styles.primaryTextColor}`}
+      >
+        Get In Touch
+      </h2>
 
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title">Let's talk about everything!</h3>
-          <p className="contact__details">
+          <h3 className={`contact__title ${styles.secondaryTextColor}`}>
+            Let's talk about everything!
+          </h3>
+          <p className={`contact__details ${styles.mainTextColor}`}>
             Don't like forms? Send me an email. 👋
           </p>
         </div>

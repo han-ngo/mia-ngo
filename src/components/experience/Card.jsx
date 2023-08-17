@@ -33,8 +33,8 @@ const Card = (props) => {
             <div>
               <p>
                 <h3 className={`timeline__title ${styles.primaryTextColor}`}>
-                  <span class="title">{props.subtitle} @ </span>
-                  <span class="company">
+                  <span className="title">{props.subtitle} @ </span>
+                  <span className="company">
                     <a
                       className={`${styles.accentSubtextColor}`}
                       href={`${props.link}`}

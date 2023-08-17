@@ -12,7 +12,9 @@ const About = (props) => {
   return (
     <section className="about container section" id="about">
       <motion.div variants={textVariant()}>
-        <h2 className={`section__title ${styles.primaryTextColor}`}>
+        <h2
+          className={`section__title before:bg-dots dark:before:bg-dots-dark ${styles.primaryTextColor}`}
+        >
           About Me
         </h2>
       </motion.div>

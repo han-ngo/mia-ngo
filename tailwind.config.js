@@ -17,6 +17,10 @@ module.exports = {
         light: "0px 5px 20px 0px rgb(69 67 96 / 10%)",
         dark: "0px 5px 20px 0px rgb(248 248 242 / 10%)",
       },
+      backgroundImage: {
+        dots: "url('/src/assets/dots-bg.svg')",
+        "dots-dark": "url('/src/assets/dots-bg-dark.svg')",
+      },
     },
   },
   plugins: [],

@@ -8,7 +8,6 @@ const HeaderSocials = () => {
         title="Email"
         href="mailto:gh.hanngo@gmail.com"
         className={`home__social-link ${styles.primaryTextColor}`}
-        target="_blank"
       >
         <i className="fa-regular fa-envelope"></i>
       </a>

@@ -36,6 +36,7 @@ const About = (props) => {
                 <a
                   className={`${styles.accentSubtextColor}`}
                   href="https://www.oracle.com/corporate/"
+                  target="_blank"
                 >
                   Oracle
                 </a>
@@ -43,6 +44,7 @@ const About = (props) => {
                 <a
                   className={`${styles.accentSubtextColor}`}
                   href="https://www.oracle.com/cx/platform/"
+                  target="_blank"
                 >
                   Oracle Cloud CX Platform
                 </a>{" "}

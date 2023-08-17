@@ -7,6 +7,14 @@ import { fadeIn, zoomIn } from "../../utils/motion.js";
 const Card = (props) => {
   const [animatePoints, setAnimatePoints] = useState(false);
 
+  DOMPurify.addHook("afterSanitizeAttributes", function (node) {
+    // set all elements owning target to target=_blank
+    if ("target" in node) {
+      node.setAttribute("target", "_blank");
+      node.setAttribute("rel", "noopener");
+    }
+  });
+
   useEffect(() => {
     if (props.expanded) {
       // Delay animation start to ensure smooth UI transition
@@ -30,6 +38,7 @@ const Card = (props) => {
                     <a
                       className={`${styles.accentSubtextColor}`}
                       href={`${props.link}`}
+                      target="_blank"
                     >
                       {props.title}
                     </a>

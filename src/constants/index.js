@@ -157,7 +157,7 @@ const work = [
     desc: "Content and Experience Cloud",
     points: [
       "Orchestrated and developed Site Plan features, optimizing users' workflow for large-scale, multi-lingual websites. Implemented seamless support for millions of site pages, emphasizing robust performance and scalability.",
-      "Owned and developed <a class='text-[#FF4D61] dark:text-[#ff79c6] hover:text-[#fc9faa] dark:hover:text-[#ffbde3] font-medium' href='https://www.oracle.com/content-management/cx/video-content-creation-delivery/#content-calendaring'>Scheduled Publishing</a> features, enabling job scheduling and management, resulting in a 50% surge in user productivity and a 35% increase in product revenue within six months of launch.",
+      "Owned and developed <a class='text-[#FF4D61] dark:text-[#ff79c6] hover:text-[#fc9faa] dark:hover:text-[#ffbde3] font-medium' target='_blank' href='https://www.oracle.com/content-management/cx/video-content-creation-delivery/#content-calendaring'>Scheduled Publishing</a> features, enabling job scheduling and management, resulting in a 50% surge in user productivity and a 35% increase in product revenue within six months of launch.",
       "Spearheaded the migration of a product-wide internal tool from MomentJS to DayJS, enhancing performance and standardization across the platform.",
     ],
   },

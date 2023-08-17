@@ -60,7 +60,7 @@ const Portfolio = () => {
                     {github && (
                       <a
                         href={github}
-                        target="norefwork__buttonerrror"
+                        target="_blank"
                         className={`work__button text-[1.85rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
                         <i class="fa-brands fa-github"></i>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     {demo && (
                       <a
                         href={demo}
-                        target="noreferrror"
+                        target="_blank"
                         className={`work__button text-[1.70rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
                         <i class="fa-regular fa-folder-open"></i>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                     {youtube && (
                       <a
                         href={youtube}
-                        target="noreferrror"
+                        target="_blank"
                         className={`work__button text-[1.85rem] ${styles.primaryInverseTextColor} ${styles.primaryInverseHoverColor}`}
                       >
                         <i class="fa-brands fa-youtube"></i>

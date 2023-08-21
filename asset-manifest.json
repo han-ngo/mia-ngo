@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mia-ngo/static/css/main.b292d19a.css",
-    "main.js": "/mia-ngo/static/js/main.61f32aae.js",
+    "main.js": "/mia-ngo/static/js/main.3e96ff7b.js",
     "static/media/uber-moves.png": "/mia-ngo/static/media/uber-moves.a056a33b54df1c718536.png",
     "static/media/portrait_dark3.jpg": "/mia-ngo/static/media/portrait_dark3.484ff71204b81d0bb59e.jpg",
     "static/media/portrait_SF_square.jpg": "/mia-ngo/static/media/portrait_SF_square.52f4989b6e43651c7867.jpg",
@@ -47,10 +47,10 @@
     "index.html": "/mia-ngo/index.html",
     "static/media/threejs.svg": "/mia-ngo/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "main.b292d19a.css.map": "/mia-ngo/static/css/main.b292d19a.css.map",
-    "main.61f32aae.js.map": "/mia-ngo/static/js/main.61f32aae.js.map"
+    "main.3e96ff7b.js.map": "/mia-ngo/static/js/main.3e96ff7b.js.map"
   },
   "entrypoints": [
     "static/css/main.b292d19a.css",
-    "static/js/main.61f32aae.js"
+    "static/js/main.3e96ff7b.js"
   ]
 }

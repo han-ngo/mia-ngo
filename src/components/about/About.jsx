@@ -34,7 +34,7 @@ const About = (props) => {
           >
             <div className="about__info">
               <p className={`about__description ${styles.mainTextColor}`}>
-                I am currently a Software Engineer at{" "}
+                I am a Software Engineer at{" "}
                 <a
                   className={`${styles.accentSubtextColor}`}
                   href="https://www.oracle.com/corporate/"
@@ -50,15 +50,15 @@ const About = (props) => {
                 >
                   Oracle Cloud CX Platform
                 </a>{" "}
-                - a complete & modern content management platform. Skilled
-                Software Engineer with a passion for developing innovative
-                solutions and optimizing user experiences. Proficient in{" "}
-                <i>Python</i>, <i>Java</i>, <i>JavaScript</i>, and web
-                technologies. With over 3 years in the industry, I excel in
-                full-stack web development, translating conceptual ideas into
-                viable prototypes and designing robust coding architectures.
-                Committed to delivering high-quality solutions while fostering
-                effective cross-functional collaboration.
+                - a complete & modern content management platform. With a
+                passion for developing innovative solutions and optimizing user
+                experiences, I'm proficient in <i>Python</i>, <i>Java</i>,{" "}
+                <i>JavaScript</i>, and web technologies. With over 3 years in
+                the industry, I excel in full-stack web development, translating
+                conceptual ideas into viable prototypes and designing robust
+                coding architectures. Committed to delivering high-quality
+                solutions while fostering effective cross-functional
+                collaboration.
               </p>
             </div>
 

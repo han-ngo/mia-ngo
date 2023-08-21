@@ -32,7 +32,7 @@ const HeaderSocials = () => {
 
       <a
         title="Resume"
-        href="https://drive.google.com/file/d/1yXLsP_Xm3AjQ9wUqYWrzvUAkUxsDpw9j/view?usp=sharing"
+        href="https://drive.google.com/file/d/1j3UYKP8PId3NkayJ17jJUtWoFAYvwVRh/view?usp=sharing"
         className={`home__social-link ${styles.primaryTextColor}`}
         target="_blank"
       >

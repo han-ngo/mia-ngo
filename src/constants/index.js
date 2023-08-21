@@ -139,7 +139,7 @@ const education = [
     subtitle: "Bachelor's Degree in Computer Science",
     desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
     points: [
-      "Dean's List",
+      "Dean's List (Multiple Semesters)",
       "Phi Eta Sigma Honor Society",
       "Relevant Courses: Natural Language Processing, Operating System, Database, Web Software Architecture, Algorithms, Visualization for Data Science, Security, Networking, Computer Architecture, Linear Algebra, Calculus",
     ],
@@ -156,8 +156,8 @@ const work = [
     subtitle: "Software Engineer",
     desc: "Content and Experience Cloud",
     points: [
-      "Orchestrated and developed Site Plan features, optimizing users' workflow for large-scale, multi-lingual websites. Implemented seamless support for millions of site pages, emphasizing robust performance and scalability.",
-      "Owned and developed <a className='text-[#FF4D61] dark:text-[#ff79c6] hover:text-[#fc9faa] dark:hover:text-[#ffbde3] font-medium' target='_blank' href='https://www.oracle.com/content-management/cx/video-content-creation-delivery/#content-calendaring'>Scheduled Publishing</a> features, enabling job scheduling and management, resulting in a 50% surge in user productivity and a 35% increase in product revenue within six months of launch.",
+      "Launched Site Plan features, enhancing workflow for multi-lingual websites; supported millions of pages across 39 languages and 10,000+ sites.",
+      "Owned and developed <a className='text-[#FF4D61] dark:text-[#ff79c6] hover:text-[#fc9faa] dark:hover:text-[#ffbde3] font-medium' target='_blank' href='https://www.oracle.com/content-management/cx/video-content-creation-delivery/#content-calendaring'>Scheduled Publishing</a> features, led to a 35% increase in product revenue within six months of launch and boosted user productivity by 50% through job scheduling and management.",
       "Spearheaded the migration of a product-wide internal tool from MomentJS to DayJS, enhancing performance and standardization across the platform.",
     ],
   },
@@ -170,8 +170,8 @@ const work = [
     subtitle: "Software Engineer Intern",
     desc: "Risk Engineering",
     points: [
-      "Led automation of internal credit limit system for GS counterparties, reducing errors and boosting efficiency by 80%.",
-      "Worked with clients to design and implement an intuitive UI, leading to a 35% decrease in support ticket volumes and enhancing overall usability.",
+      "Led automation of internal credit limit system for GS counterparties, reducing errors and boosting efficiency by 85%.",
+      "Worked directly with stakeholders to understand, document, and develop intuitive UI, leading to a 35% decrease in support ticket volumes and enhancing overall usability.",
     ],
   },
   {
@@ -183,7 +183,7 @@ const work = [
     subtitle: "Software Engineer Intern",
     desc: "Canvas Platform Team",
     points: [
-      "Developed and owned a REST endpoint for key creation, streamlining third-party integration configuration by 40%.",
+      "Established and owned a REST endpoint for key creation, streamlining third-party integration configuration by 40%.",
       "Enhanced student data privacy by 75% by implementing robust authentication leveraging Consul.",
     ],
   },

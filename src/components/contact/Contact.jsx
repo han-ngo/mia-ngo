@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { SectionWrapper } from "../../hoc";
 import { styles } from "../../styles.js";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_e51d5av",
+        "template_l7exaho",
+        form.current,
+        "coRrq52I4ePM6gQbr"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="contact container section" id="contact">
       <h2
@@ -22,11 +45,17 @@ const Contact = () => {
           </p>
         </div>
 
-        <form action="" className="contact__form">
+        <form
+          action=""
+          className="contact__form"
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <div className="contact__form-group">
             <div className="contact__form-div">
               <input
                 type="text"
+                name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
               />
@@ -35,6 +64,7 @@ const Contact = () => {
             <div className="contact__form-div">
               <input
                 type="email"
+                name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
               />
@@ -44,6 +74,7 @@ const Contact = () => {
           <div className="contact__form-div">
             <input
               type="text"
+              name="subject"
               className="contact__form-input"
               placeholder="Insert your subject"
             />
@@ -51,7 +82,7 @@ const Contact = () => {
 
           <div className="contact__form-div contact__form-area">
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"

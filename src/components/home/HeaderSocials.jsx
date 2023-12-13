@@ -17,6 +17,7 @@ const HeaderSocials = () => {
         href="https://www.linkedin.com/in/mia-han-ngo/"
         className={`home__social-link ${styles.primaryTextColor}`}
         target="_blank"
+        rel="noreferrer"
       >
         <i className="fa-brands fa-linkedin"></i>
       </a>
@@ -26,6 +27,7 @@ const HeaderSocials = () => {
         href="https://github.com/han-ngo"
         className={`home__social-link ${styles.primaryTextColor}`}
         target="_blank"
+        rel="noreferrer"
       >
         <i className="fa-brands fa-github"></i>
       </a>
@@ -35,6 +37,7 @@ const HeaderSocials = () => {
         href="https://drive.google.com/file/d/1j3UYKP8PId3NkayJ17jJUtWoFAYvwVRh/view?usp=sharing"
         className={`home__social-link ${styles.primaryTextColor}`}
         target="_blank"
+        rel="noreferrer"
       >
         <i className="fa-regular fa-file"></i>
       </a>
